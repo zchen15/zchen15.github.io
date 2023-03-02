@@ -14,7 +14,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		     "Bilgenur Baloglu, PhD"
+title:		     "Zhewei Chen, PhD"
 description:	     "A hub for hosting my work. Powered"
 author:               "Jekyll, built off of the gchure template."
 
