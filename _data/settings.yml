@@ -1,0 +1,29 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'bilgehub'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: "UA-168718429-1"
+
+menu:
+#- {name: 'CV', folder: 'cv', file: 'cv.html'}
+- {name: 'Research', folder: 'pages', file: 'research.html'}
+- {name: 'News', folder: 'pages', file: 'news.html'}
+- {name: 'Blog', folder: 'pages', file: 'blog.html'}
+
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'twitter', link: 'https://twitter.com/bilgeMolEcol'}
+- {icon: 'github', link: 'https://github.com/bbaloglu'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/bilgenur-baloglu/'}
+- {icon: 'envelope', link: 'mailto:bbaloglu@uoguelph.ca'}
+
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+related_posts: 'You may also enjoy...'
+post_date_prefix: 'Written on'
