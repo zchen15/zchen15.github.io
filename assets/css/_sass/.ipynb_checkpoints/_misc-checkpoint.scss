@@ -9,23 +9,3 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-.headshot_resize {
-  background-image: url('{{site.github_url}}/assets/img/headshot.jpg');
-  width: 200px;
-  height: 100px;
-  background-position: center;
-  background-size: cover;
-}
-
-.crop {
-    width: 200px;
-    height: 150px;
-    overflow: hidden;
-}
-
-.crop img {
-    width: 400px;
-    height: 300px;
-    margin: -75px 0 0 -100px;
-}
