@@ -16980,7 +16980,7 @@ TGGCTCAGGTGTCTCAATGATGGAGATTACTGTAAACTTCAGGGTGACCAAAGAATCAAAATAAGTGTTGATAAA
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><a class="anchor" id="cigar_alignment"></a></p>
-<h3 id="Visualizing-cigar-alignment-strings">Visualizing cigar alignment strings<a class="anchor-link" href="#Visualizing-cigar-alignment-strings">&#182;</a></h3><p>CIGAR alignment strings can be translated to pairwise sequence alignments with <code>.cigar_to_alignment</code></p>
+<h3 id="Visualizing-cigar-alignment-strings">Visualizing cigar alignment strings<a class="anchor-link" href="#Visualizing-cigar-alignment-strings">&#182;</a></h3><p>To view how good the consensus sequences look relative to the reference, we can format the alignments from CIGAR format to pairwise alignments with <code>.cigar_to_alignment</code></p>
 
 </div>
 </div>
@@ -16990,7 +16990,7 @@ TGGCTCAGGTGTCTCAATGATGGAGATTACTGTAAACTTCAGGGTGACCAAAGAATCAAAATAAGTGTTGATAAA
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">pge</span><span class="o">.</span><span class="n">Aligner</span><span class="o">.</span><span class="n">cigar_to_alignment</span><span class="p">)</span>
@@ -17039,7 +17039,7 @@ cigar_to_alignment(query: str, ref: str, cigar: str) -&gt; list
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load sequence for HAP58</span>
@@ -17097,6 +17097,18 @@ ATACTTCA<span style="background-color: rgb(0,0,255)">T</span>TTTTTGATCCTGCTGGGGG
 
 </div>
 
+</div>
+<div id="cell-id=1bca6023-37eb-45f3-b667-718b9c2556b7" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The above alignment shows there is high frequency of C-T transitions. This may indicate the nanopore basecaller has greater difficulty distinguishing between the electrical signals of cytosine and thymidine bases. Another possibility is the degradation of cytosine to uracil, which can be mistaken for thymidine during DNA replication.</p>
+
+</div>
+</div>
+</div>
 </div>
 </body>
 
